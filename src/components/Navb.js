@@ -7,13 +7,12 @@ const Navbar = () => {
 
   return (
     <>
-        <nav className='navbar navbar-expand-lg navbar-mainbg'>
-            <NavLink className="navbar-brand navbar-logo" to="/" exact>
-             Neuanlage   
-            </NavLink>
-
-        </nav>
-    
+      <div class="topnav">
+        <input class="Suche" type="text" placeholder="&#x1F50D; Auswahl.."></input>
+        <button type="button" class="Abmelden">
+          <span class="glyphicon"></span> <h1 class="Abmelden_text" style={{fontSize:25}}> Abmelden <i class="icon-signout"></i></h1>
+        </button>
+      </div>
     </>
   )
 }

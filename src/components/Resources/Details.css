@@ -1,0 +1,107 @@
+.details_table{
+
+    width: 95%;
+
+    height: 5%;
+
+    table-layout: fixed;
+
+    position: absolute;
+
+    background-color: white;
+
+    top: 5%;
+
+    left: 2.5%;
+
+}
+
+.details_segment{
+
+    display: table-cell;
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: middle;
+    word-wrap: break-word;
+
+}
+
+.margentrigger{
+
+    position: relative;
+
+    top: 15%;
+
+    left: 2.5%;
+    
+    font-size: x-large;
+
+    border-radius: 25px;
+
+    background: whitesmoke;
+    
+    border: 3px groove gray;
+
+    width: 95%;
+}
+
+.optionen_table{
+    position: absolute;
+
+    top:25%;
+
+    left: 2.5%;
+
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+
+}
+
+.optionen_segment{
+
+    background-color: whitesmoke;
+
+    color: black;
+
+    border-radius: 10px;
+
+    padding: 10px 10px;
+}
+
+.daten_table{
+    position: absolute;
+
+    width: 90%;
+
+    height: 35%;
+
+    top: 34%;
+
+    left: 2.5%;
+
+    border: 1px solid;
+}
+
+.daten_segment{
+    border: 1px solid;
+
+    width: 40%;
+
+    position: relative;
+
+    left: 2.5%;
+}
+
+.input_segment{
+    border: 1px solid;
+
+    width: 45%;
+}
+
+.input{
+    width: 90%;
+    
+    position: relative;
+
+    left:5%;
+}

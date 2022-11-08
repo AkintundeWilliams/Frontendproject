@@ -1,4 +1,66 @@
+.topnav{
 
-body{
-    color: black;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    
+    justify-content: center;
+    align-items: center;
+
+    position:absolute; 
+    
+    width: 90%;
+
+    min-width: 1280px;
+
+    left: 3.5%; 
+    
+    top:50px;
+    
+    padding: 5px;
+    
+    border-radius: 25px;
+     
+    font-size: larger;
+    
+    height: 100px;
+    
+    background: whitesmoke;
+    
+    border: 5px groove rgb(255, 128, 50);
+    
+    }
+
+.Suche{
+
+    text-align: left;
+
+    position: absolute;
+    
+    left: 5%;
+    
+    top: 25%;
+
+    border: 3px groove rgb(255, 128, 50);
+
+    border-radius: 25px;
+
+}
+
+.Abmelden{
+
+    position: absolute;
+    
+    left: 70%;
+
+    top: 10%;
+    
+    background: whitesmoke;
+
+    border: 0px;
+}
+
+.Abmelden_text{
+    color: rgb(0, 102, 179);
 }

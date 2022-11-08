@@ -65,6 +65,8 @@
   .anmeldungCentralizer{
     text-align: center;
     font-size: 18px;
+    color: rgb(0, 102, 179);
+    font-family: sans-serif;
   }
 
   .copyRight{

@@ -2,14 +2,16 @@ import React from 'react';
 import '../../css/Login.css';
 import LoginForm from './LoginForm';
 
-const Login = () => {
-  return (<>
+const Login = ({ setToken }) => {
+
+  return (
+  <>
     <div className='login'>
-        <div className='jumbotron form-box'>
-          <LoginForm></LoginForm>
-        </div>
-        </div>
-    </>
+      <div className='jumbotron form-box'>
+        <LoginForm setToken={setToken} ></LoginForm>
+      </div>
+    </div>
+  </>
   )
 }
 
