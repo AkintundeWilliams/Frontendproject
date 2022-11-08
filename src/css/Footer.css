@@ -9,6 +9,9 @@
 
     width: 90%;
 
+    min-width: 1280px;
+    min-height: 35px;
+
     background: whitesmoke;
     
     border: 3px groove gray;

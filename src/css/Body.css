@@ -6,6 +6,9 @@
 
     width: 90%;
 
+    min-width: 1280px;
+    min-height: 640px;
+
     left: 5%;
 
     top: 20%;
@@ -17,4 +20,3 @@
     border: 3px groove gray;
 
 }
-

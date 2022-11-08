@@ -8,11 +8,13 @@
     justify-content: center;
     align-items: center;
 
-    position:relative; 
+    position:absolute; 
     
     width: 90%;
 
-    left: 5%; 
+    min-width: 1280px;
+
+    left: 3.5%; 
     
     top:50px;
     
